@@ -57,7 +57,11 @@ If you make some manual changes and want to force the archive or rss cache to up
 You can't set up an automated update for multiple pages on the same day, the system doesn't know what to do when it finds multiple files
 at once. (You could upload YYYYMMDDa.jpg, hit the index, upload YYYYMMDDb.jpg, hit the index... but that's probably not useful)
 
-Title text:
-===========
-
 You can also put a YYYYMMDD.txt file in the uploads directory, and it will be used as the title text starting on that date.
+
+Due credit:
+===========
+ame-pub is largely based on previous works by kyl191 (http://code.kyl191.net/):
+ - Image Gallery (which was in turn based on Comic Gallery 1.2)
+ - tk_rss
+ 
