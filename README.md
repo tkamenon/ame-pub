@@ -12,13 +12,13 @@ It also comes with really, really rudimentary scaffolding examples to show how t
 The files:
 ==========
 
-ame-config.php		- All configuration happens here
-ame-libs.php		- The brains of the operation
-archive.php		- Archive page example
-archive_index.php	- Archive index example
-index.php		- Main page / newest comic example
-README.txt		- INFINITE RECURSION
-rss.php			- ... okay, it's not really an example when the script produces the entire document. The RSS feed.
+ - ame-config.php	- All configuration happens here
+ - ame-libs.php		- The brains of the operation
+ - archive.php		- Archive page example
+ - archive_index.php	- Archive index example
+ - index.php		- Main page / newest comic example
+ - README.txt		- INFINITE RECURSION
+ - rss.php		- ... okay, it's not really an example when the script produces the entire document. The RSS feed.
 
 The default configuration assumes the following layout:
  - All of the files in this package are in the same directory.
@@ -36,10 +36,10 @@ Naming and type constraints:
 Comic pages must be named with a YYYYMMDD prefix, and must be either .gif, .jpg, or .png. To have multiple pages on the same date,
 you can go from YYYYMMDDa to YYYYMMDDz.
 Some legit examples:
- 20141122.jpg
- 20141123_whatever.jpg
- 20141124a.jpg
- 20141124b_whatever.jpg
+ - 20141122.jpg
+ - 20141123_whatever.jpg
+ - 20141124a.jpg
+ - 20141124b_whatever.jpg
 
 Operating instructions:
 =======================
