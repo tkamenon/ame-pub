@@ -17,7 +17,7 @@ The files:
  - archive.php		- Archive page example
  - archive_index.php	- Archive index example
  - index.php		- Main page / newest comic example
- - README.txt		- INFINITE RECURSION
+ - README.md		- INFINITE RECURSION
  - rss.php		- ... okay, it's not really an example when the script produces the entire document. The RSS feed.
 
 The default configuration assumes the following layout:
@@ -35,7 +35,7 @@ Naming and type constraints:
 
 Comic pages must be named with a YYYYMMDD prefix, and must be either .gif, .jpg, or .png. To have multiple pages on the same date,
 you can go from YYYYMMDDa to YYYYMMDDz.
-Some legit examples:
+Some legit naming examples:
  - 20141122.jpg
  - 20141123_whatever.jpg
  - 20141124a.jpg
@@ -48,7 +48,7 @@ Create the updates directory, place a comic page (see above for naming) in there
 If directory permissions are appropriate and everything works, you should see the image you just uploaded.
 It should also show on the RSS, but the archive will be empty until there's more than one page.
 
-If it doesn't work, you can check the html source for a comment explaining something about what went wrong.
+If it doesn't work, you can check the page source for a HTML comment explaining something about what went wrong.
 All catastrophic level failures should result in some kind of warning being emitted there. You can also enable debugging and
 catching php errors in ame-config.php to get a better idea of what's not working.
 
@@ -63,5 +63,4 @@ Due credit:
 ===========
 ame-pub is largely based on previous works by kyl191 (http://code.kyl191.net/):
  - Image Gallery (which was in turn based on Comic Gallery 1.2)
- - tk_rss
- 
+ - tk_rss 

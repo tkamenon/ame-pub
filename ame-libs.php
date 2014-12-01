@@ -3,7 +3,7 @@
 // The ame-pub webcomic publishing thingamajig (Not quite a name, really)    //
 // ------------------------------------------------------------------------- //
 // By: amenon (I may be found on irc.nightstar.net. Or not.)		     //
-// Theoretically downloaded from: http://somewhere.on.github		     //
+// Possibly found at: https://github.com/tkamenon/ame-pub		     //
 // ------------------------------------------------------------------------- //
 // Based off these previous works by kyl191 (http://code.kyl191.net/):	     //
 //  - Image Gallery (which was in turn based off of Comic Gallery 1.2)	     //
@@ -19,7 +19,7 @@
 require_once("./ame-config.php");
 
 // All configuration is in ame-config.php
-// Operation instructions in README.txt
+// Operating instructions can be found in README.md
 
 
 // Set the timezone as configured in ame-config
